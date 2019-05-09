@@ -1,8 +1,7 @@
 {
     "target_overrides": {
         "ZEST_CORE_STM32L4A6RG": {
-             "target.macros_add": ["IDB0XA1_D13_PATCH",
-				  "SSL_MAINBOARD_PIN_SPI_MOSI_RF=PA_7",
+             "target.macros_add": ["SSL_MAINBOARD_PIN_SPI_MOSI_RF=PA_7",
                                   "SSL_MAINBOARD_PIN_SPI_MISO_RF=PA_6",
                                   "SSL_MAINBOARD_PIN_SPI_SCK_RF=PA_5",
                                   "SSL_MAINBOARD_PIN_SPI_CS_RF1=PB_5",
