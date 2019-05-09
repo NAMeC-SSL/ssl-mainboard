@@ -1,4 +1,5 @@
 {
+    "name": "ssl-mainboard",
     "target_overrides": {
         "ZEST_CORE_STM32L4A6RG": {
              "target.macros_add": ["SSL_MAINBOARD_PIN_SPI_MOSI_RF=PA_7",
@@ -8,11 +9,11 @@
                                   "SSL_MAINBOARD_PIN_SPI_CS_RF2=PB_4",
                                   "SSL_MAINBOARD_PIN_SPI_CS_RF3=PD_2",
                                   "SSL_MAINBOARD_PIN_CE_RF1=PC_12",
-                                  "SSL_MAINBOARD_PIN_CE_RF2=D12",
+                                  "SSL_MAINBOARD_PIN_CE_RF2=PC_2",
                                   "SSL_MAINBOARD_PIN_CE_RF3=PC_3",
                                   "SSL_MAINBOARD_PIN_IRQ_RF1=PA_1",
                                   "SSL_MAINBOARD_PIN_IRQ_RF2=PA_8",
-                                  "SSL_MAINBOARD_PIN_IRQ_RF3=PC_10",]
-
+                                  "SSL_MAINBOARD_PIN_IRQ_RF3=PC_10"]
         }
+    }
 }
