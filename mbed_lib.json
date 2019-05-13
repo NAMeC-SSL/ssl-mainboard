@@ -28,7 +28,17 @@
                                   "MUX_UART_OE=PC_13",
                                   "MUX_UART_0=PB_12",
                                   "MUX_UART_1=PB_13",
-                                  "MUX_UART_2=PC_0"]
+                                  "MUX_UART_2=PC_0",
+                                  "KCK_EN=PB_6",
+                                  "KCK1=PC_8",
+                                  "KCK2=PC_9",
+                                  "BUZZER_PIN=PB_7",
+                                  "IR_DET_A=PA_0",
+                                  "IR_LED=PH_1",
+                                  "ADDR1=PH_0",
+                                  "ADDR2=PC_6",
+                                  "ADDR3=PC_7",
+                                  "MUX_ANA=PA_4"]
         }
     }
 }
