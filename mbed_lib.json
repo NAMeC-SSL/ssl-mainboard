@@ -21,7 +21,7 @@
                                   "SPI_CS_DRV2=PA_10",
                                   "SPI_CS_DRV3=PA_9",
                                   "SPI_CS_DRV4=PB_0",
-                                  "SPI_CS_DRV5=PB_10",
+                                  "SPI_CS_DRV5=ICAPT1",
                                   "DRV_BOOT=PC_1",
                                   "DRV_TX=PA_2",
                                   "DRV_RX=PA_3",
